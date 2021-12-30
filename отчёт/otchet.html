@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Отчёт</title>
+    <style>
+        body {
+            background-color: #bffde9;
+            background-image: repeating-linear-gradient(120deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .1) 1px, transparent 1px, transparent 60px),
+                repeating-linear-gradient(60deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .1) 1px, transparent 1px, transparent 60px),
+                linear-gradient(60deg, rgba(0, 0, 0, .1) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, .1) 75%, rgba(0, 0, 0, .1)),
+                linear-gradient(120deg, rgba(0, 0, 0, .1) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, .1) 75%, rgba(0, 0, 0, .1));
+            background-size: 70px 120px;
+        }
+
+        .div {
+            display: block;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .div2 {
+            display: block;
+        }
+
+        .text {
+            font-size: 19px;
+            margin-left: 23%;
+            width: 800px;
+        }
+
+        .text2 {
+            text-align: center;
+        }
+    </style>
+    <script type="text/javascript" src="jquery-3.6.0.js"></script>
+    <script type="text/javascript" src="jquery-git.min.js"></script>
+</head>
+
+<body id="tci">
+    <div class="div2">
+        <h1 class="text2">Dead inside team совместно с jaboclui pictures представляет... <br> Проект сделанный на
+            коленочке.</h1>
+        <h2 class="text2">Цели - цели они себе в жизни не ставили, но была одна: не умереть раньше 16:00 и успеть в
+            столовую.</h2><br>
+        <h3 class="text2">В главных ролях:</h3>
+        <div class="div3">
+            <ul class="text">
+                <li><b>LazyStrangg</b> - повелитель горящих клавиш и пирожков в столовой, но в этот раз её смогли найти
+                    онлайн
+                    только в игре</li><br>
+                <li><b>OJMN </b>- тестировщик, любит смотреть сериалы и делать что угодно, только не тестировать</li>
+                <br>
+                <li><b>Tartagliaimpact</b> - призыватель, который призвал "Повелителя горячих клавиш" и "тестировщика"
+                    на обсуждение отчёта. А Ksushe4ka исчезла бесследно, и 29.12 после 20:01 её никто не видел</li><br>
+                <li><b>Ksushe4ka </b>(Номенательница на звание "Авось прокатит" и "Времени ещё много, успею") - Успешно
+                    начала
+                    работу 29.12 в 20:00 и закончила в 20:01 того же дня.</li>
+            </ul>
+        </div>
+    </div>
+    <div class="div">Отчёты: ну, кого на что хватило...</div>
+    <div class="div"><a href="work_liza.html">LazyStrangg</a></div>
+    <div class="div"><a href="work_vika.html">OJMN</a></div>
+    <div class="div"><a href="work_sacha.html">Tartagliaimpact</a></div>
+    <div class="div"><a href="work_ksusha.html">Ksushe4ka</a></div>
+    <script type="text/javascript">
+        let var2 = '';
+        var2 = var2 + ' <h1 class="text2">Лабораторная 12</h1>'
+            + '<h2 class="text2">Наши цели - научится выполнять проектирование и разработку проекта в целом и его отдельных модулей; выполненять тестирование; документировать проект; работать в команде.</h2><br>'
+            + '<h3 class="text2">Начало работы - 25.12.2021</h3>'
+            + '<h3 class="text2">Завершение работы - 29.12.2021</h3><br>'
+            + '<h3 class="text2">Над проектом работали:</h3>'
+            + '<div class="div3"><ul class="text">'
+            + ' <li><b>Новичок Елизавета_LazyStrangg</b> (Лидер) - работала над 13 модулем "Название введенного числа" и соединяла все модули в один, помогала в создании отчета</li><br>'
+            + '<li><b>Крючкова Виктория_OJMN</b> (Тестировщик)- работала над 12 модулем "Таймер"и тестировала коды, помогала в создании отчета</li><br>'
+            + '<li><b>Карпин Александр_Tartagliaimpact</b>  (Член команды)- работал над 1 модулем "Простой калькулятор для работы с целыми числами" и помогал в создании отчёта</li><br>'
+            + ' <li><b>Корело Ксения_Ksushe4ka</b> (Член команды)- работала над 10 модулем "Перевод числа из двоичной системы в десятичную" и создавала отчёт</li>'
+            + '</ul></div></div>'
+            + ' <div class="div">Отчёты:</div><div class="div"><a href="work_liza.html">Новичок Елизавета</a></div>'
+            + '<div class="div"><a href="work_vika.html">Крючкова Виктория</a></div>'
+            + '<div class="div"><a href="work_sacha.html">Карпин Александр</a></div>'
+            + '<div class="div"><a href="work_ksusha.html">Корело Ксения</a></div>';
+        $("#tci").on("click", function () {
+            $("#tci").html(var2);
+        })
+    </script>
+</body>
+
+</html>
